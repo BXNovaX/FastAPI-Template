@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fastapi-template"
+version = "0.1.0"
+description = ""
+authors = ["Hosein Moghaddam <mhmk.nova@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["standard"], version = "^0.115.6"}
+pytest = "^8.3.4"
+black = "^24.10.0"
+flake8 = "^7.1.1"
+isort = "^5.13.2"
+tox = "^4.23.2"
+bandit = "^1.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
